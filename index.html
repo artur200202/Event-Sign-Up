@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Event Sign Up</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-bar">
+        <li class="list"><a class="nav" href="#">Events</a></li>
+        <li><a class="nav" href="#">Athletes</a></li>
+        <li><a class="nav" href="#">Connect</a></li>
+        <li><a class="nav" href="#">Watch</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>UFC Next Event</h1>
+      <p class="date">
+        The next upcoming UFC event will be
+        <time></time>
+          <strong>July 19</strong>. It will take place in Louisiana. The
+          event will start at <strong>5pm</strong>.
+        </time>
+      </p>
+      <p class="description">
+        The main event will be Max Holloway vs Dustin Porier. Two Champions who
+        have faced each other in the past.  Excting rematch and it will be Dustin's final fight. So
+        don't miss out on the action, it's going to be a good one.
+      </p>
+      <img
+        class="picture"
+        src="https://www.draftpicksmtprospect.com/wp-content/uploads/2025/05/UFC-318-HOLLOWAY-VS-POIRIER-3.jpg"
+        alt="max vs dustin"
+      />
+    </section>
+    <section>
+      <h2>Events Features</h2>
+      <ul class="features">
+        <li>
+          We will have an amazing concert after the prelim fights are done,
+          Lil Wayne will be preforming.
+        </li>
+        <li>We offer Free food and Beverage for everyone</li>
+        <li>
+          There will be a raffle before the concert,
+          you will be rewarded free UFC tickets lifetime if you win
+        </li>
+      </ul>
+      <img class="ring" src="https://dmxg5wxfqgb4u.cloudfront.net/image/2020-09/Return%20to%20Fight%20Island%20Main%20Event%20Card.jpeg?tK_K8z3EeAqx2I5lVXmeMJe2raTShqOA">
+    </section>
+
+  </main>
+  <form>
+    <fieldset>
+      <legend class="legend">Sign up</legend>
+      <div class="first">
+        <label>First Name:</label>
+        <input type="text" class="firstName">
+      </div>
+      <div class="lastName">
+        <label>
+          Last Name:
+        </label>
+        <input type="text" >
+      </div>
+      <div class="email">
+        <label>Email:</label>
+        <input type="email" required>
+      </div>
+      <div class="phone">
+        <label>Phone Number</label>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9][4]" placeholder="123-456-7890">
+      </div>
+      <div class="dateof">
+      <label>Date of Birth:</label>
+      <input type="date" min="2000-12-2" max="2025-12-12">
+    </div>
+      <div class="hear">
+      <label>How did you hear abut this event:</label>
+      <select>
+        <optgroup>
+          <option>Instagram</option>
+          <option>Google</option>
+          <option>Youtube</option>
+        </optgroup>
+      </select>
+    </div>
+    <div class="tickets">
+      <label>Ticket Type:</label>
+      <input type="radio">
+      <label>General</label>
+      <input type="radio">
+      <label>Vip</label>
+      <input type="radio">
+      <label>Student</label>
+    </div>
+    <div class="Newsletter">
+      <label>Newsletter Subscription:</label>
+      <input type="checkbox">
+    </div>
+    <div class="text-area">
+      <textarea class="text-holder" cols="30" rows="3" placeholder="any comments...">
+      </textarea>
+    </div>
+    <div class="buttons">
+      <button class="Submit">Submit</button>
+      <button class="remove">Remove</button>
+    </div>
+    </fieldset>
+  </form>
+  <footer>
+    <address></address>
+  </footer>
+</body>
+</html>

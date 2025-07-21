@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(220, 0, 0);
+}
+.picture {
+  width: 500px;
+  height: 500px;
+  margin-left: 300px;
+}
+.nav {
+  text-decoration: none;
+  color: black;
+}
+.nav-bar {
+  display: flex;
+  gap: 6rem;
+  margin-left: 200px;
+  font-weight: bold;
+  font-size: 20px;
+  list-style-type: none;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
+.date {
+  text-align: center;
+  font-size: 18px;
+}
+.description {
+  margin: 30px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 42px;
+}
+.features {
+  text-align: center;
+  list-style: none;
+  font-size: 22px;
+  line-height: 42px;
+}
+
+form {
+  padding-right: 300px;
+  padding-left: 300px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.firstName {
+  width: 100px;
+}
+.first {
+  margin-top: 10px;
+}
+.lastName {
+  margin-top: 6px;
+}
+.lastName input {
+  width: 120px;
+}
+.email {
+  margin-top: 6px;
+}
+.email input {
+  width: 190px;
+}
+.phone {
+  margin-top: 6px;
+}
+.dateof {
+  margin-top: 6px;
+}
+.hear {
+  margin-top: 6px;
+}
+.tickets {
+  margin-top: 6px;
+}
+.Newsletter {
+  margin-top: 6px;
+  margin-right: 45px;
+}
+.Newsletter input {
+  margin-left: 10px;
+}
+.text-area {
+  margin-top: 6px;
+}
+.text-area textarea {
+}
+.Submit {
+  margin-top: 6px;
+  color: white;
+  background-color: red;
+  border-radius: 5rem;
+  width: 90px;
+  height: 30px;
+  margin-left: 30px;
+}
+.Submit:hover {
+  background-color: black;
+}
+.legend {
+  font-size: 30px;
+}
+fieldset {
+  border-color: white;
+}
+fieldset:hover {
+  border: none;
+}
+.ring {
+  margin-left: 260px;
+  width: 600px;
+  height: 550px;
+  margin-top: 30px;
+}
+.remove {
+  color: white;
+  background-color: black;
+  border-radius: 5rem;
+  width: 90px;
+  height: 30px;
+}
+.buttons {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.remove:hover {
+  color: white;
+  background-color: red;
+}
