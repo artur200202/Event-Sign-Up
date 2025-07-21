@@ -136,3 +136,7 @@ fieldset:hover {
   color: white;
   background-color: red;
 }
+footer address p {
+  font-size: 20px;
+  text-align: center;
+}
